@@ -36,7 +36,7 @@
 
 ## Selected work
 
-> 当前项目仍在私有开发中。这里展示的是经过核对的项目方向与真实功能边界。
+> 部分项目仍在私有开发中。这里展示的是经过核对的项目方向与真实功能边界。
 
 ### 01 — ArtGenome / 画基因
 
@@ -54,7 +54,7 @@
 
 `Digital Fabrication` `3D Workflow` `Python` `SVG` `DXF` `PDF`
 
-### 03 — Desktop Pet Workspace
+### 03 — [Desktop Pet Workspace](https://github.com/XinAn-Annie/desktop-pet-windows)
 
 **桌面陪伴 × 个人效率 × 本地优先**
 
