@@ -28,9 +28,6 @@
     <path d="M650 251C701 229 730 166 777 178C816 188 824 222 853 218C893 213 912 113 978 118C1031 122 1040 190 1083 190C1126 190 1154 131 1216 164" stroke="#27372F" stroke-opacity="0.36" stroke-width="3"/>
     <path d="M886 150C911 161 930 143 946 128M946 128C956 143 966 137 978 118M1047 185C1060 175 1068 177 1083 190" stroke="#27372F" stroke-opacity="0.33" stroke-width="2"/>
     <path d="M742 380C775 337 785 299 813 284C840 270 864 286 886 266C906 247 912 214 935 206C958 198 975 219 985 248C1000 292 1036 318 1073 380H742Z" fill="url(#inkFade)"/>
-    <path d="M862 301C846 270 850 235 875 206C891 188 900 166 899 137" stroke="#17221E" stroke-width="8" stroke-linecap="round"/>
-    <path d="M897 174C872 165 850 170 832 187M899 153C919 139 943 140 963 151M889 208C917 195 944 199 965 216" stroke="#17221E" stroke-width="5" stroke-linecap="round"/>
-    <g fill="#203029" fill-opacity="0.88"><path d="M813 192C835 170 861 169 884 183C858 184 839 197 813 192Z"/><path d="M836 176C852 154 876 150 897 163C876 164 860 177 836 176Z"/><path d="M900 151C923 126 949 128 973 145C946 142 928 154 900 151Z"/><path d="M883 214C907 187 942 190 971 211C937 205 915 219 883 214Z"/><path d="M858 226C878 204 900 204 921 216C898 218 881 230 858 226Z"/></g>
     <g class="sun"><circle cx="1012" cy="92" r="58" fill="url(#sunGlow)"/><circle cx="1012" cy="92" r="31" fill="#A83B30" fill-opacity="0.88"/></g>
     <g class="bird-one" stroke="#2C3933" stroke-width="2.2" stroke-linecap="round"><path d="M693 111C700 104 707 105 713 111C719 104 727 104 733 110"/></g>
     <g class="bird-two" stroke="#2C3933" stroke-width="1.8" stroke-linecap="round"><path d="M735 133C740 128 746 128 751 133C756 128 762 129 767 133"/></g>
