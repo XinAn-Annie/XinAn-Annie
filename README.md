@@ -1,4 +1,4 @@
-<img src="./assets/profile-header.svg" width="100%" alt="XinAn — design student working across interaction, creative coding and digital fabrication" />
+<img src="./assets/profile-header.svg" width="100%" alt="XinAn — animated Chinese ink landscape for a design student portfolio" />
 
 <br />
 
