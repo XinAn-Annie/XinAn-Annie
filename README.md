@@ -1,4 +1,4 @@
-<img src="./assets/profile-header.svg" width="100%" alt="XinAn — animated Chinese ink landscape for a design student portfolio" />
+<img src="./assets/profile-header-ink-no-tree.svg" width="100%" alt="XinAn — animated Chinese ink landscape for a design student portfolio" />
 
 <br />
 
