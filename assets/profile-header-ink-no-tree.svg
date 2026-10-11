@@ -1,0 +1,49 @@
+<svg width="1200" height="380" viewBox="0 0 1200 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>XinAn — animated Chinese ink landscape</title>
+  <desc>An animated shanshui handscroll with drifting mist, flying birds, a glowing sun and a cinnabar seal.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1200" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3E9D2"/><stop offset="0.48" stop-color="#E9DDC3"/><stop offset="1" stop-color="#D8CEB8"/>
+    </linearGradient>
+    <linearGradient id="inkFade" x1="0" y1="80" x2="0" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#26332F" stop-opacity="0.72"/><stop offset="1" stop-color="#111714" stop-opacity="0.96"/>
+    </linearGradient>
+    <linearGradient id="mountainWash" x1="0" y1="120" x2="0" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#40524B" stop-opacity="0.18"/><stop offset="1" stop-color="#1D2925" stop-opacity="0.72"/>
+    </linearGradient>
+    <radialGradient id="sunGlow"><stop stop-color="#B64735" stop-opacity="0.48"/><stop offset="1" stop-color="#B64735" stop-opacity="0"/></radialGradient>
+    <pattern id="grain" width="17" height="19" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="3" r="0.7" fill="#5A4E3F" fill-opacity="0.08"/><circle cx="12" cy="14" r="0.55" fill="#7B6A54" fill-opacity="0.07"/><path d="M4 10L8 9" stroke="#5D5245" stroke-opacity="0.045"/>
+    </pattern>
+    <filter id="mistBlur" x="-20%" y="-80%" width="140%" height="260%"><feGaussianBlur stdDeviation="13"/></filter>
+    <clipPath id="frame"><rect width="1200" height="380" rx="24"/></clipPath>
+    <style>
+      .mist-a{animation:driftA 15s ease-in-out infinite alternate}.mist-b{animation:driftB 19s ease-in-out infinite alternate}.sun{animation:breathe 6s ease-in-out infinite;transform-origin:1012px 92px}.bird-one{animation:flyOne 18s linear infinite}.bird-two{animation:flyTwo 18s linear infinite 1.3s}.water-line{animation:shimmer 7s ease-in-out infinite alternate}.seal-mark{animation:sealPulse 5s ease-in-out infinite;transform-origin:522px 315px}
+      @keyframes driftA{from{transform:translateX(-34px);opacity:.34}to{transform:translateX(54px);opacity:.58}}@keyframes driftB{from{transform:translateX(45px);opacity:.24}to{transform:translateX(-38px);opacity:.5}}@keyframes breathe{0%,100%{transform:scale(.96);opacity:.78}50%{transform:scale(1.06);opacity:1}}@keyframes flyOne{0%{transform:translate(-80px,18px);opacity:0}10%,85%{opacity:.8}100%{transform:translate(420px,-24px);opacity:0}}@keyframes flyTwo{0%{transform:translate(-120px,24px);opacity:0}12%,82%{opacity:.62}100%{transform:translate(380px,-16px);opacity:0}}@keyframes shimmer{from{opacity:.17;transform:translateX(-8px)}to{opacity:.42;transform:translateX(12px)}}@keyframes sealPulse{0%,100%{transform:scale(1);opacity:.9}50%{transform:scale(1.035);opacity:1}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+    </style>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="380" fill="url(#paper)"/><rect width="1200" height="380" fill="url(#grain)"/>
+    <path d="M527 274C591 247 620 194 677 202C719 208 743 247 782 232C823 216 837 139 899 143C949 146 971 208 1015 204C1059 201 1088 145 1132 154C1166 161 1182 195 1212 207V380H503L527 274Z" fill="url(#mountainWash)"/>
+    <path d="M650 251C701 229 730 166 777 178C816 188 824 222 853 218C893 213 912 113 978 118C1031 122 1040 190 1083 190C1126 190 1154 131 1216 164" stroke="#27372F" stroke-opacity="0.36" stroke-width="3"/>
+    <path d="M886 150C911 161 930 143 946 128M946 128C956 143 966 137 978 118M1047 185C1060 175 1068 177 1083 190" stroke="#27372F" stroke-opacity="0.33" stroke-width="2"/>
+    <path d="M742 380C775 337 785 299 813 284C840 270 864 286 886 266C906 247 912 214 935 206C958 198 975 219 985 248C1000 292 1036 318 1073 380H742Z" fill="url(#inkFade)"/>
+    <g class="sun"><circle cx="1012" cy="92" r="58" fill="url(#sunGlow)"/><circle cx="1012" cy="92" r="31" fill="#A83B30" fill-opacity="0.88"/></g>
+    <g class="bird-one" stroke="#2C3933" stroke-width="2.2" stroke-linecap="round"><path d="M693 111C700 104 707 105 713 111C719 104 727 104 733 110"/></g>
+    <g class="bird-two" stroke="#2C3933" stroke-width="1.8" stroke-linecap="round"><path d="M735 133C740 128 746 128 751 133C756 128 762 129 767 133"/></g>
+    <g class="water-line" stroke="#50645B" stroke-width="1"><path d="M563 329C652 319 716 322 787 330"/><path d="M609 346C687 339 740 342 819 348"/><path d="M1006 330C1071 324 1123 327 1188 335"/></g>
+    <g class="mist-a" filter="url(#mistBlur)"><path d="M474 260C586 232 710 250 825 266C947 283 1063 249 1229 251" stroke="#F7F0DE" stroke-width="28" stroke-linecap="round"/></g>
+    <g class="mist-b" filter="url(#mistBlur)"><path d="M548 306C658 285 768 295 872 309C978 323 1101 294 1252 300" stroke="#FBF5E8" stroke-width="21" stroke-linecap="round"/></g>
+    <rect x="0" y="0" width="610" height="380" fill="#F3E9D2" fill-opacity="0.82"/>
+    <path d="M54 60H490" stroke="#9B352C" stroke-width="2"/>
+    <text x="54" y="48" fill="#91352D" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="700" letter-spacing="4">DESIGN · CODE · MAKE</text>
+    <text x="50" y="166" fill="#17231F" font-family="Georgia, 'Times New Roman', serif" font-size="86" font-weight="700" letter-spacing="-4">XinAn.</text>
+    <text x="55" y="214" fill="#384941" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="0.8">Interaction · Creative Coding · Digital Fabrication</text>
+    <text x="55" y="263" fill="#6E6252" font-family="Georgia, 'Times New Roman', serif" font-size="15" letter-spacing="3.5">OBSERVE · THINK · MAKE</text>
+    <g class="seal-mark"><rect x="493" y="286" width="58" height="58" rx="4" fill="#A43A30"/><rect x="499" y="292" width="46" height="46" rx="2" stroke="#F3E9D2" stroke-width="2" stroke-opacity="0.78"/><g stroke="#F7EBD3" stroke-width="2.2" stroke-linecap="square"><path d="M507 301H519V310H507V321H519V333H507"/><path d="M528 301V333M528 301H539V315H528M528 321H539V333H528"/></g></g>
+    <text x="55" y="329" fill="#293932" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="2">DESIGN STUDENT · 2026</text>
+    <rect x="0.75" y="0.75" width="1198.5" height="378.5" rx="23.25" stroke="#665D50" stroke-opacity="0.22" stroke-width="1.5"/>
+  </g>
+</svg>
+
+
