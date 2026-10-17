@@ -38,21 +38,21 @@
 
 > 部分项目仍在私有开发中。这里展示的是经过核对的项目方向与真实功能边界。
 
-### 01 — ArtGenome / 画基因
+### 01 — [ArtGenome / 画基因](https://github.com/XinAn-Annie/Chinese-painting)
 
-**传统绘画色彩研究 × 交互可视化**
+**传统绘画分析 × 本地 AI × 交互可视化**
 
-构建面向古画学习与研究的多模态智能平台。用户上传古画图像后，平台通过 K-means 色彩聚类分析画面色彩分布，并辅助推测原始色彩；采用自训练模型检测与识别题跋文字；支持接入千问等大语言模型，对画面内容及题跋信息进行综合分析，并结合外部知识库补充相关历史与艺术背景，为古画学习、研究与鉴赏提供辅助。
+面向古画学习、临摹与修复研究的本地交互平台：浏览器端完成颜色提取与传统色匹配，后端结合题跋区域检测、PaddleOCR、词云、印章位置热力图，以及本地 Qwen 赏析和五类技法相对倾向分析。追问时复用同一幅画的 OCR、颜色与技法结果，不重复识图。
 
-`Interaction Design` `Data Visualization` `Canvas` `Plotly` `Three.js` `OCR`
+`Interaction Design` `Data Visualization` `Canvas` `Plotly` `OCR` `Local Qwen`
 
-### 02 — Voxel Slicer
+### 02 — Adaptive Voxelizer Web Demo
 
-**数字制造 × 计算几何 × 纸艺展开**
+**计算几何 × 自适应体素化 × 3D 交互**
 
-将三维模型转换为可制作的纸艺展开图。工作流覆盖模型导入、加权体素化与拓补、连通性处理、展开、色彩加载，以及 SVG / DXF / PDF 制造文件输出；也持续探索从数字形态到实体构造之间更可靠的设计流程。
+一个聚焦几何分析的 Web 原型：上传 GLB 后，在后端完成网格校验、归一化、主曲率、厚度、法线变化与候选八叉树分析；前端使用 Three.js 渲染实例化体素，并缓存首次几何分析结果，让参数变化只更新重要性评分与体素裁剪。当前阶段明确不包含颜色、纹理、UV、图像转 3D 或 SVG/PDF 制造输出。
 
-`Digital Fabrication` `3D Workflow` `Python` `SVG` `DXF` `PDF`
+`Computational Design` `Three.js` `FastAPI` `Trimesh` `Open3D` `libigl`
 
 ### 03 — [Desktop Pet Workspace](https://github.com/XinAn-Annie/desktop-pet-windows)
 
