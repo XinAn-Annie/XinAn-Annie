@@ -15,6 +15,7 @@
 - 古画修复+颜色计算+AR交互
 - 3D资产生成与拓补
 - 实体交互体验
+
 详细作品集请见 https://xinan-annie.github.io/
 
 </td>
