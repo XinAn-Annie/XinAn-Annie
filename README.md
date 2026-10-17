@@ -46,7 +46,7 @@
 
 `Interaction Design` `Data Visualization` `Canvas` `Plotly` `OCR` `Local Qwen`
 
-### 02 — Adaptive Voxelizer Web Demo
+### 02 — [PixelFold](https://github.com/XinAn-Annie/Voxel)
 
 **计算几何 × 自适应体素化 × 3D 交互**
 
